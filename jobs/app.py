@@ -31,9 +31,5 @@ def close_connection(exception):
     if connection is not None:
         connection.close()
 
-
-
-
-
 def jobs():
     return render_template('index.html')
